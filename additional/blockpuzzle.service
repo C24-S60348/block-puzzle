@@ -1,0 +1,15 @@
+[Unit]
+Description=Block Puzzle Socket.IO App
+After=network.target
+
+[Service]
+User=afwanhaziq
+WorkingDirectory=/home/afwanhaziq/blockpuzzle
+ExecStart=/home/afwanhaziq/quartapp/afwan_cron/venv/bin/python3 app.py
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

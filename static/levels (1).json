@@ -1,0 +1,5144 @@
+{
+  "version": "3.0",
+  "total": 100,
+  "sections": [
+    {
+      "id": 0,
+      "name": "Tutorial",
+      "label": "1-10",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 1,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Easy",
+      "label": "11-20",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 1,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 3,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Easy-Medium",
+      "label": "21-30",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x1",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Medium",
+      "label": "31-40",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x2",
+            "x": 1,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x3",
+            "x": 3,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "x4",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x5",
+            "x": 1,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x6",
+            "x": 5,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x7",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x8",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x9",
+            "x": 2,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x10",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x11",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Medium-Hard",
+      "label": "41-50",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x12",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x13",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x14",
+            "x": 1,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x15",
+            "x": 3,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x16",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x17",
+            "x": 1,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x18",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x19",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x20",
+            "x": 1,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x22",
+            "x": 3,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hard",
+      "label": "51-60",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x23",
+            "x": 0,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x24",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 3,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x25",
+            "x": 2,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 3,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x27",
+            "x": 2,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 1,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x28",
+            "x": 1,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x29",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x30",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x31",
+            "x": 1,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x32",
+            "x": 2,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x33",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hard+",
+      "label": "61-70",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x34",
+            "x": 2,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x35",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 1,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x36",
+            "x": 0,
+            "y": 1,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x37",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x38",
+            "x": 3,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x39",
+            "x": 1,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 1,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x40",
+            "x": 1,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x42",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x43",
+            "x": 0,
+            "y": 1,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x44",
+            "x": 1,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Very Hard",
+      "label": "71-80",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x45",
+            "x": 1,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 1,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x46",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x47",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x48",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x49",
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x50",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x51",
+            "x": 2,
+            "y": 3,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x52",
+            "x": 1,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h4",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x53",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x56",
+            "x": 2,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Expert",
+      "label": "81-90",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x57",
+            "x": 3,
+            "y": 0,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x58",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x59",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 1,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x60",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x61",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x62",
+            "x": 1,
+            "y": 3,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x63",
+            "x": 3,
+            "y": 0,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 0,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v4",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "x64",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x65",
+            "x": 0,
+            "y": 5,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x66",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Master",
+      "label": "91-100",
+      "levels": [
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x67",
+            "x": 4,
+            "y": 1,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 1,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x68",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x69",
+            "x": 0,
+            "y": 3,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x70",
+            "x": 3,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 3,
+            "y": 1,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x71",
+            "x": 0,
+            "y": 3,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 4,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x72",
+            "x": 0,
+            "y": 3,
+            "width": 3,
+            "height": 1,
+            "vertical": false
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x73",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 2,
+            "width": 1,
+            "height": 3,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 3,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x74",
+            "x": 1,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h1",
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v2",
+            "x": 3,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h2",
+            "x": 4,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "v3",
+            "x": 5,
+            "y": 2,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "h3",
+            "x": 3,
+            "y": 0,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          },
+          {
+            "id": "x75",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          }
+        ],
+        [
+          {
+            "id": "car",
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "vertical": false,
+            "isTarget": true
+          },
+          {
+            "id": "v1",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 2,
+            "vertical": true
+          },
+          {
+            "id": "x76",
+            "x": 3,
+            "y": 4,
+            "width": 2,
+            "height": 1,
+            "vertical": false
+          }
+        ]
+      ]
+    }
+  ]
+}
