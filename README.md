@@ -4,4 +4,4 @@
 
 git config pull.rebase false
 
-sudo syatemctl restart blockpuzzle
+sudo systemctl restart blockpuzzle

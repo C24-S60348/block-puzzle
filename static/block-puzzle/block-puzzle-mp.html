@@ -265,7 +265,7 @@
          SCREEN 1: LOBBY MENU
     ══════════════════════════════════════ -->
     <div class="screen active" id="screen-lobby">
-        <button class="btn-back-home" onclick="window.location.href='block-puzzle.html'">&#8592;</button>
+        <button class="btn-back-home" onclick="window.location.href='/block-puzzle'">&#8592;</button>
 
         <div style="text-align:center; color:white; margin-bottom:6px;">
             <div style="font-size:1.6rem; font-weight:900;">🌍 Multiplayer</div>
@@ -448,7 +448,7 @@
         <div style="font-size:3rem;">😢</div>
         <div style="font-size:1.2rem;font-weight:bold;color:white;">Opponent left the game</div>
         <div style="font-size:.82rem;color:rgba(255,255,255,.55);text-align:center;">The room has been closed.</div>
-        <button class="btn btn-blue" style="width:180px;" onclick="window.location.href='block-puzzle.html'">🏠 Main Menu</button>
+        <button class="btn btn-blue" style="width:180px;" onclick="window.location.href='/block-puzzle'">🏠 Main Menu</button>
     </div>
 
 </div><!-- #app -->
@@ -644,7 +644,7 @@ function connectSocket() {
     socket.on('section_chosen', data => {
         // P2 receives host's section choice
         selectedSection = data.section;
-        const sectionNames = ['Beginner (1-10)','Easy (11-20)','Easy+ (21-30)','Medium (31-40)','Medium+ (41-50)','Hard (51-60)','Hard+ (61-70)','Very Hard (71-80)','Expert (81-90)','Master (91-100)'];
+        const sectionNames = ['Pack 1 - Beginner','Pack 2 - Easy','Pack 3 - Easy+','Pack 4 - Medium','Pack 5 - Medium+','Pack 6 - Hard','Pack 7 - Hard+','Pack 8 - Very Hard','Pack 9 - Expert','Pack 10 - Master'];
         document.getElementById('section-info-area').style.display = 'block';
         document.getElementById('section-info-text').textContent = 'Section ' + sectionNames[data.section];
     });
