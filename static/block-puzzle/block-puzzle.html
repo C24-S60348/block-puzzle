@@ -281,16 +281,16 @@
             <p class="subtitle">2-Player Competitive Challenge</p>
             <div class="menu-buttons">
                 <button class="btn btn-play" onclick="startGameFromMenu()">▶ Play Game</button>
-                <button class="btn btn-multiplayer" onclick="window.location.href='/block-puzzle/mp'">🌍 Play Multiplayer</button>
+                <button class="btn btn-multiplayer" onclick="window.location.href='block-puzzle-mp.html'">🌍 Play Multiplayer</button>
                 <button class="btn btn-instructions" onclick="toggleInfo()">📝 How to Play</button>
             </div>
             <div class="section-label">📦 Starting Section (both players)</div>
             <div class="section-grid" id="section-grid">
-                <div class="section-btn active" onclick="selectSection(0)" id="sec-0">1-10<br><span style="font-weight:normal;font-size:.55rem">Tutorial</span></div>
+                <div class="section-btn active" onclick="selectSection(0)" id="sec-0">1-10<br><span style="font-weight:normal;font-size:.55rem">Beginner</span></div>
                 <div class="section-btn" onclick="selectSection(1)" id="sec-1">11-20<br><span style="font-weight:normal;font-size:.55rem">Easy</span></div>
-                <div class="section-btn" onclick="selectSection(2)" id="sec-2">21-30<br><span style="font-weight:normal;font-size:.55rem">E-Med</span></div>
+                <div class="section-btn" onclick="selectSection(2)" id="sec-2">21-30<br><span style="font-weight:normal;font-size:.55rem">Easy+</span></div>
                 <div class="section-btn" onclick="selectSection(3)" id="sec-3">31-40<br><span style="font-weight:normal;font-size:.55rem">Medium</span></div>
-                <div class="section-btn" onclick="selectSection(4)" id="sec-4">41-50<br><span style="font-weight:normal;font-size:.55rem">M-Hard</span></div>
+                <div class="section-btn" onclick="selectSection(4)" id="sec-4">41-50<br><span style="font-weight:normal;font-size:.55rem">Medium+</span></div>
                 <div class="section-btn" onclick="selectSection(5)" id="sec-5">51-60<br><span style="font-weight:normal;font-size:.55rem">Hard</span></div>
                 <div class="section-btn" onclick="selectSection(6)" id="sec-6">61-70<br><span style="font-weight:normal;font-size:.55rem">Hard+</span></div>
                 <div class="section-btn" onclick="selectSection(7)" id="sec-7">71-80<br><span style="font-weight:normal;font-size:.55rem">V.Hard</span></div>
@@ -726,7 +726,8 @@ class PuzzleGame {
         this.setupPuzzle();
         this.startTimer();
         if (this.levelDisplay)
-            this.levelDisplay.textContent = `Level ${this.levelIndex+1} / ${SHARED_LEVELS.length}`;
+            const packPos = this.levelIndex - selectedSection*10 + 1;
+            this.levelDisplay.textContent = `Level ${packPos} / 10`;
         if (this.resetBtn) this.resetBtn.textContent = '↺ Restart';
         // Restore next button text in case it was changed for match win
         if (this.nextBtn) this.nextBtn.textContent = 'Next Level →';

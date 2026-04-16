@@ -265,7 +265,7 @@
          SCREEN 1: LOBBY MENU
     ══════════════════════════════════════ -->
     <div class="screen active" id="screen-lobby">
-        <button class="btn-back-home" onclick="window.location.href='/block-puzzle'">&#8592;</button>
+        <button class="btn-back-home" onclick="window.location.href='block-puzzle.html'">&#8592;</button>
 
         <div style="text-align:center; color:white; margin-bottom:6px;">
             <div style="font-size:1.6rem; font-weight:900;">🌍 Multiplayer</div>
@@ -327,11 +327,11 @@
         <div id="section-vote-area" style="display:none; margin-top:8px; width:320px;">
             <div style="color:rgba(255,255,255,.7);font-size:.72rem;margin-bottom:5px;">🎮 Choose section to play:</div>
             <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:4px;">
-                <div class="mp-sec-btn active" onclick="hostSetSection(0)" id="msec-0" style="background:#27ae60;color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">1-10<br>Tutorial</div>
+                <div class="mp-sec-btn active" onclick="hostSetSection(0)" id="msec-0" style="background:#27ae60;color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">1-10<br>Beginner</div>
                 <div class="mp-sec-btn" onclick="hostSetSection(1)" id="msec-1" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">11-20<br>Easy</div>
-                <div class="mp-sec-btn" onclick="hostSetSection(2)" id="msec-2" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">21-30<br>E-Med</div>
+                <div class="mp-sec-btn" onclick="hostSetSection(2)" id="msec-2" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">21-30<br>Easy+</div>
                 <div class="mp-sec-btn" onclick="hostSetSection(3)" id="msec-3" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">31-40<br>Med</div>
-                <div class="mp-sec-btn" onclick="hostSetSection(4)" id="msec-4" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">41-50<br>M-Hrd</div>
+                <div class="mp-sec-btn" onclick="hostSetSection(4)" id="msec-4" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">41-50<br>Med+</div>
                 <div class="mp-sec-btn" onclick="hostSetSection(5)" id="msec-5" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">51-60<br>Hard</div>
                 <div class="mp-sec-btn" onclick="hostSetSection(6)" id="msec-6" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">61-70<br>Hrd+</div>
                 <div class="mp-sec-btn" onclick="hostSetSection(7)" id="msec-7" style="background:rgba(255,255,255,.12);color:white;border:none;border-radius:5px;padding:4px 2px;cursor:pointer;font-size:.55rem;font-weight:bold;text-align:center;">71-80<br>V.Hrd</div>
@@ -644,7 +644,7 @@ function connectSocket() {
     socket.on('section_chosen', data => {
         // P2 receives host's section choice
         selectedSection = data.section;
-        const sectionNames = ['1-10','11-20','21-30','31-40','41-50','51-60','61-70','71-80','81-90','91-100'];
+        const sectionNames = ['Beginner (1-10)','Easy (11-20)','Easy+ (21-30)','Medium (31-40)','Medium+ (41-50)','Hard (51-60)','Hard+ (61-70)','Very Hard (71-80)','Expert (81-90)','Master (91-100)'];
         document.getElementById('section-info-area').style.display = 'block';
         document.getElementById('section-info-text').textContent = 'Section ' + sectionNames[data.section];
     });
@@ -665,8 +665,8 @@ function connectSocket() {
         }
         // Update opp header
         const li = data.level_index;
-        document.getElementById('opp-level-display').textContent =
-            `Level ${li+1} / ${SHARED_LEVELS.length}`;
+        const oppPackPos = li - selectedSection*10 + 1;
+        document.getElementById('opp-level-display').textContent = `Level ${oppPackPos} / 10`;
         document.getElementById('opp-moves').textContent = data.moves;
         document.getElementById('opp-time').textContent  =
             `${Math.floor(data.time_ms/1000)}s`;
@@ -955,8 +955,10 @@ class PuzzleGame {
         this.board.createGrid();
         this.setupPuzzle();
         this.startTimer();
-        if (this.levelDisplay)
-            this.levelDisplay.textContent = `Level ${this.levelIndex+1} / ${SHARED_LEVELS.length}`;
+        if (this.levelDisplay) {
+            const packPos = this.levelIndex - selectedSection*10 + 1;
+            this.levelDisplay.textContent = `Level ${packPos} / 10`;
+        }
         if (this.resetBtn) this.resetBtn.style.display = '';
         if (this.nextBtn)  this.nextBtn.textContent = 'Next Level →';
     }
