@@ -125,6 +125,7 @@
         ════════════════════════════════════════ */
         #match-winner-screen {
             display:none; position:absolute; z-index:5000; inset:0;
+            pointer-events:none;
             background:radial-gradient(ellipse at center,#1a1a2e 0%,#000 100%);
             flex-direction:column; align-items:center; justify-content:center;
             gap:11px; padding:18px;
@@ -150,7 +151,7 @@
         ════════════════════════════════════════ */
         #game-ui {
             display:none; position:absolute; inset:0;
-            z-index:1001;
+            z-index:1001; pointer-events:none;
             background:linear-gradient(135deg,#2c3e50,#34495e);
         }
 
@@ -929,25 +930,43 @@ function showMatchWinner(game) {
         <div class="mw-stat"><span>Levels Cleared</span><span>10</span></div>
     `;
     document.getElementById('game-ui').style.display='none';
-    document.getElementById('match-winner-screen').style.display='flex';
+    const mws = document.getElementById('match-winner-screen');
+    mws.style.display='flex';
+    mws.style.pointerEvents='';
 }
 
 function restartMatch() {
-    document.getElementById('match-winner-screen').style.display='none';
-    document.getElementById('game-ui').style.display='flex';
+    const mw = document.getElementById('match-winner-screen');
+    mw.style.display = 'none';
+    mw.style.pointerEvents = 'none';
+    const gu2 = document.getElementById('game-ui');
+    gu2.style.display = 'flex';
+    gu2.style.pointerEvents = '';
     setTimeout(()=>{ game1.fullReset(); game2.fullReset(); }, 50);
 }
 function goToMenu() {
-    document.getElementById('match-winner-screen').style.display='none';
-    document.getElementById('main-menu').style.display='flex';
+    // Hide winner screen completely
+    const mw = document.getElementById('match-winner-screen');
+    mw.style.display = 'none';
+    mw.style.pointerEvents = 'none';
+    // Hide game UI
+    const gu = document.getElementById('game-ui');
+    gu.style.display = 'none';
+    gu.style.pointerEvents = 'none';
+    // Show main menu and restore clicks
+    const menu = document.getElementById('main-menu');
+    menu.style.display = 'flex';
+    menu.style.pointerEvents = '';
     if(game1) clearInterval(game1.timerInterval);
     if(game2) clearInterval(game2.timerInterval);
+    game1 = null; game2 = null;
 }
 async function startGameFromMenu() {
     const menu = document.getElementById('main-menu');
     menu.style.display = 'none';
     menu.style.pointerEvents = 'none';
     document.getElementById('game-ui').style.display='flex';
+    document.getElementById('game-ui').style.pointerEvents='';
     if (SHARED_LEVELS.length === 0) await loadLevels();
     setTimeout(initGames, 50);
 }
