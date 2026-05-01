@@ -527,15 +527,11 @@ let myGame       = null;   // PuzzleGame instance
 let oppGame      = null;   // OpponentBoard instance (read-only renderer)
 let selectedSection = 0;  // 0-9
 
-function hostSetSection(idx) {
-    if (myPlayerId !== 1) return; // only host can choose
-    selectedSection = idx;
-    document.querySelectorAll('.mp-sec-btn').forEach((b,i) => {
-        b.style.background = i===idx ? '#27ae60' : 'rgba(255,255,255,.12)';
-    });
-    // Broadcast to opponent via socket
+function chooseRandomSectionAsHost() {
+    if (myPlayerId !== 1) return;
+    selectedSection = Math.floor(Math.random() * 10);
     if (socket && roomCode) {
-        socket.emit('section_chosen', { room_code: roomCode, section: idx });
+        socket.emit('section_chosen', { room_code: roomCode, section: selectedSection });
     }
 }
 
@@ -575,8 +571,6 @@ function showCreate() {
         document.getElementById('slot-p1-name').textContent = myName;
         showScreen('screen-waiting');
         socketJoinRoom();
-        // Show section chooser for host
-        document.getElementById('section-vote-area').style.display='block';
     })
     .catch(() => showToast('Cannot reach server. Is Flask running?'));
 }
@@ -642,11 +636,8 @@ function connectSocket() {
     });
 
     socket.on('section_chosen', data => {
-        // P2 receives host's section choice
+        // Both players sync to host's random section
         selectedSection = data.section;
-        const sectionNames = ['Pack 1 - Beginner','Pack 2 - Easy','Pack 3 - Easy+','Pack 4 - Medium','Pack 5 - Medium+','Pack 6 - Hard','Pack 7 - Hard+','Pack 8 - Very Hard','Pack 9 - Expert','Pack 10 - Master'];
-        document.getElementById('section-info-area').style.display = 'block';
-        document.getElementById('section-info-text').textContent = 'Section ' + sectionNames[data.section];
     });
 
     socket.on('opponent_joined', data => {
@@ -655,6 +646,7 @@ function connectSocket() {
         p2.classList.add('filled');
         p2.querySelector('.slot-name').textContent = oppName;
         p2.querySelector('.slot-status').innerHTML = '✓ Ready';
+        chooseRandomSectionAsHost();
         showToast(`${oppName} joined! Starting game...`);
         setTimeout(() => startGame(), 1200);
     });

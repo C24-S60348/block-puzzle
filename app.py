@@ -37,6 +37,7 @@ app.config['SECRET_KEY'] = 'block-puzzle-secret-2024'
 app.config['DATABASE']   = os.path.join(os.path.dirname(__file__), 'block_puzzle.db')
 
 STATIC_DIR = os.path.join(os.path.dirname(__file__), 'static', 'block-puzzle')
+ASSETS_DIR = os.path.join(os.path.dirname(__file__), 'assets')
 
 # ── Serve HTML/levels ──────────────────────────────────────────────────────
 @app.route('/')
@@ -53,6 +54,10 @@ def levels():
     resp = make_response(send_from_directory(STATIC_DIR, 'levels.json'))
     resp.headers['Cache-Control'] = 'public, max-age=86400'
     return resp
+
+@app.route('/assets/<path:filename>')
+def assets(filename):
+    return send_from_directory(ASSETS_DIR, filename)
 
 # ── Blueprint (REST API + SocketIO events) ─────────────────────────────────
 app.register_blueprint(block_puzzle_bp)

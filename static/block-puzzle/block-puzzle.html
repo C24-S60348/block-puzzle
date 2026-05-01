@@ -45,21 +45,104 @@
         ════════════════════════════════════════ */
         #main-menu {
             position:absolute; inset:0;
-            display:flex; align-items:center; justify-content:center;
-            background:radial-gradient(ellipse at center,#1a1a2e 0%,#000 100%);
+            display:flex;
             z-index:1000;
+            background:#c9c8f0;
             touch-action:manipulation;
+            overflow:hidden;
         }
-        .menu-content {
-            background:white; border-radius:20px; padding:18px 20px;
-            text-align:center; box-shadow:0 18px 50px rgba(0,0,0,.6);
-            width:320px; max-height:520px; overflow-y:auto;
+        .menu-bg-left {
+            position:absolute;
+            left:80px;
+            top:0;
+            width:100px;
+            height:100%;
+            object-fit:fill;
+            z-index:1;
+            pointer-events:none;
+        }
+        .menu-bg-right {
+            position:absolute;
+            right:0;
+            bottom:0;
+            width:200px;
+            height:370px;
+            object-fit:fill;
+            z-index:1;
+            pointer-events:none;
+        }
+        .menu-foreground {
+            position:relative;
+            z-index:2;
+            width:100%;
+            height:100%;
+        }
+        .menu-title-image {
+            position:absolute;
+            left:286px;
+            top:30px;
+            width:400px;
+            height:auto;
+            user-select:none;
+            -webkit-user-drag:none;
+            pointer-events:none;
+        }
+        .menu-desc-image {
+            position:absolute;
+            left:286px;
+            top:112px;
+            width:400px;
+            height:auto;
+            user-select:none;
+            -webkit-user-drag:none;
+            pointer-events:none;
+        }
+        .menu-info-btn {
+            position:absolute;
+            right:20px;
+            top:10px;
+            width:54px;
+            height:54px;
+            border:none;
+            border-radius:50%;
+            background:transparent;
+            cursor:pointer;
             touch-action:manipulation;
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+            z-index:4;
         }
-        .menu-content h1 { font-size:1.5rem; margin-bottom:4px; color:#2c3e50; }
-        .subtitle  { font-size:.8rem; color:#666; margin-bottom:18px; }
-        .version   { font-size:.62rem; color:#aaa; margin-top:8px; }
-        .menu-buttons { display:flex; flex-direction:column; gap:8px; }
+        .menu-image-buttons {
+            position:absolute;
+            left:286px;
+            top:205px;
+            display:flex;
+            flex-direction:column;
+            gap:18px;
+        }
+        .menu-image-btn {
+            background:transparent;
+            border:none;
+            padding:0;
+            cursor:pointer;
+            border-radius:50px;
+            transition:transform .15s ease, filter .15s ease;
+            touch-action:manipulation;
+            -webkit-tap-highlight-color:rgba(0,0,0,0);
+        }
+        .menu-image-btn img {
+            display:block;
+            width:385px;
+            height:auto;
+            border-radius:50px;
+        }
+        .menu-image-btn:hover {
+            transform:translateY(-2px);
+            filter:brightness(1.03);
+        }
+        .menu-image-btn:active {
+            transform:translateY(0);
+            filter:brightness(0.98);
+        }
 
         .btn {
             padding:10px 18px; border:none; border-radius:8px;
@@ -285,28 +368,25 @@
 
     <!-- ── Main Menu ── -->
     <div id="main-menu">
-        <div class="menu-content">
-            <h1>🤖 Block Puzzle</h1>
-            <p class="subtitle">2-Player Competitive Challenge</p>
-            <div class="menu-buttons">
-                <button class="btn btn-play" onclick="startGameFromMenu()">▶ Play Game</button>
-                <button class="btn btn-multiplayer" onclick="window.location.href='/block-puzzle/mp'">🌍 Play Multiplayer</button>
-                <button class="btn btn-instructions" onclick="toggleInfo()">📝 How to Play</button>
+        <img class="menu-bg-left" src="/assets/leftmainmenuroadwithcars.png" alt="">
+        <img class="menu-bg-right" src="/assets/rightbelowmainmenutrafficwithroad.png" alt="">
+
+        <div class="menu-foreground">
+            <img class="menu-desc-image" src="/assets/maindescription.png" alt="2 players car puzzle game">
+            <button class="menu-info-btn" onclick="toggleInfo()" aria-label="How to play">
+                <img src="/assets/maininfobutton.png" alt="" style="width:100%;height:100%;display:block;border-radius:50%;">
+            </button>
+            <img class="menu-title-image" src="/assets/maintitle.png" alt="Puzzle Puzzle title">
+
+            <div class="menu-image-buttons">
+                <button class="menu-image-btn" onclick="startGameFromMenu()" aria-label="Local multiplayer">
+                    <img src="/assets/btnlocalmultiplayer.png" alt="Local Multiplayer">
+                </button>
+                <button class="menu-image-btn" onclick="window.location.href='/block-puzzle/mp'" aria-label="Multiplayer online">
+                    <img src="/assets/btnmultiplayeronline.png" alt="Multiplayer Online">
+                </button>
             </div>
-            <div class="section-label">🎮 Choose Pack (10 levels each, easy→hard)</div>
-            <div class="section-grid" id="section-grid">
-                <div class="section-btn active" onclick="selectSection(0)" id="sec-0">Pack 1<br><span style="font-weight:normal;font-size:.55rem">Beginner</span></div>
-                <div class="section-btn" onclick="selectSection(1)" id="sec-1">Pack 2<br><span style="font-weight:normal;font-size:.55rem">Easy</span></div>
-                <div class="section-btn" onclick="selectSection(2)" id="sec-2">Pack 3<br><span style="font-weight:normal;font-size:.55rem">Easy+</span></div>
-                <div class="section-btn" onclick="selectSection(3)" id="sec-3">Pack 4<br><span style="font-weight:normal;font-size:.55rem">Medium</span></div>
-                <div class="section-btn" onclick="selectSection(4)" id="sec-4">Pack 5<br><span style="font-weight:normal;font-size:.55rem">Medium+</span></div>
-                <div class="section-btn" onclick="selectSection(5)" id="sec-5">Pack 6<br><span style="font-weight:normal;font-size:.55rem">Hard</span></div>
-                <div class="section-btn" onclick="selectSection(6)" id="sec-6">Pack 7<br><span style="font-weight:normal;font-size:.55rem">Hard+</span></div>
-                <div class="section-btn" onclick="selectSection(7)" id="sec-7">Pack 8<br><span style="font-weight:normal;font-size:.55rem">V.Hard</span></div>
-                <div class="section-btn" onclick="selectSection(8)" id="sec-8">Pack 9<br><span style="font-weight:normal;font-size:.55rem">Expert</span></div>
-                <div class="section-btn" onclick="selectSection(9)" id="sec-9">Pack 10<br><span style="font-weight:normal;font-size:.55rem">Master</span></div>
-            </div>
-            <p class="version">v3.0 — 100 Levels</p>
+
         </div>
     </div>
 
@@ -876,7 +956,7 @@ document.querySelectorAll('.section-btn').forEach((btn, i) => {
 });
 
 // Mobile touch fallback for main menu buttons
-document.querySelectorAll('#main-menu .btn').forEach(btn => {
+document.querySelectorAll('#main-menu button').forEach(btn => {
     btn.addEventListener('touchend', e => {
         e.preventDefault();
         btn.click();
@@ -962,6 +1042,7 @@ function goToMenu() {
     game1 = null; game2 = null;
 }
 async function startGameFromMenu() {
+    selectedSection = Math.floor(Math.random() * 10);
     const menu = document.getElementById('main-menu');
     menu.style.display = 'none';
     menu.style.pointerEvents = 'none';
